@@ -17,11 +17,6 @@ body {
 div:focus {
   outline: none;
 }
-#square {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
-}
 #title0 {
 	font-family: Productbold;
   font-size: 40px;
@@ -34,11 +29,13 @@ div:focus {
   padding-top: 30px;
 }
 
-#content {
+#part {
+  font-family: Product;
   padding-top: 10px;
   font-size: 27px;
 }
 #content {
+  font-family: Product;
   padding-top: 8px;
   font-size: 24px;
 }

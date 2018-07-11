@@ -1,7 +1,7 @@
 document.getElementById('title0').innerHTML = localStorage['title0'] || 'Editor';
 
 document.getElementById('title').innerHTML = localStorage['title'] || '-Title-';
-document.getElementById('content').innerHTML = localStorage['text'] || '-Apart-';
+document.getElementById('part').innerHTML = localStorage['text'] || '-Apart-';
 document.getElementById('content').innerHTML = localStorage['text'] || '-Text-';
 
 

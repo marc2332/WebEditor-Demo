@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Product;
+    src: url(product.ttf);
+}
+@font-face {
+    font-family: ProductBold;
+    src: url(productbold.ttf);
+}
+
+body {
+  color: #333;
+  font-weight: 100;
+  max-width: 25em;
+  margin: 1 auto;
+}
+
+div:focus {
+  outline: none;
+}
+#square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+#title0 {
+	font-family: Productbold;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+#title {
+	font-family: Product;
+  font-size: 48px;
+  padding-top: 30px;
+}
+
+#content {
+  padding-top: 10px;
+  font-size: 27px;
+}
+#content {
+  padding-top: 8px;
+  font-size: 24px;
+}
